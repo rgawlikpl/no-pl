@@ -6,7 +6,6 @@
       "Service\\": "src/Service/",
       "Controller\\": "src/Controller/",
       "Entity\\": "src/Entity/",
-      "Factory\\": "src/Factory/"
     }
   },
   "config": {

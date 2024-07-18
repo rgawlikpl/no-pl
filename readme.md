@@ -30,15 +30,15 @@ project-root/
 │   ├── Controller/
 │   │   └── ProductController.php
 │   ├── Core/
-│   │   └── Attributes/
-│   │   │   ├── Route.php
-│   │   └── Interfaces/
+│   │   ├── Attributes/
+│   │   │   └── Route.php
+│   │   ├── Interfaces/
 │   │   │   ├── BasicFactoryInterface.php
-│   │   │   ├── ValidatorInterface.php
+│   │   │   └── ValidatorInterface.php
 │   │   ├── Request.php
 │   │   ├── Response.php
 │   │   ├── Router.php
-│   │   ├── RouteRegistrar.php
+│   │   └── RouteRegistrar.php
 │   ├── Entity/
 │   │   └── Product.php
 │   ├── Repository/
@@ -48,6 +48,11 @@ project-root/
 │       │   ├── ProductService.php
 │       │   ├── ProductValidator.php
 │       │   └── ProductFactory.php
+├── tests/
+│   ├── Entity
+│   │   └── ProductTest.php
+│   └── Repository
+        └── ProductRepositoryTest.php
 ├── vendor/
 │   └── autoload.php
 └── index.php
